@@ -2,7 +2,7 @@
 
 
 
-### Information
+### Site information
 
 Official Website of AWS Community Day - Kochi 2019
 
