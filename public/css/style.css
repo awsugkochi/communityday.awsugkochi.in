@@ -38,7 +38,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h7 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -721,14 +722,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers .speaker .details h3 {
   color: #fff;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 450;
   margin-bottom: 5px;
 }
 
 #speakers .speaker .details p {
   color: #fff;
-  font-size: 15px;
+  font-size: 12px;
   margin-bottom: 10px;
   font-style: italic;
 }
@@ -787,7 +788,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers-details .details p {
   color: #112363;
-  font-size: 15px;
+  font-size: 10px;
   margin-bottom: 10px;
 }
 
@@ -828,7 +829,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .sub-heading {
   text-align: center;
-  font-size: 18px;
+  font-size: 12px;
   font-style: italic;
   margin: 0 auto 30px auto;
 }
@@ -880,10 +881,116 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   color: #19328e;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #schedule .schedule-item p {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
+}
+
+#schedule .schedule-item spk {
+  font-style: italic;
+  font-size: 12px;
+  margin-top: -15
+  color: #152b79;
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Workshops Section
+--------------------------------------------------------------*/
+
+#workshop {
+  padding: 60px 0 60px 0;
+}
+
+#workshop .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#workshop .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#workshop .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+}
+
+#workshop .nav-tabs a.active {
+  background-color: #FF952A;
+  color: #fff;
+}
+
+#workshop .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+#workshop .tab-pane {
+  transition: ease-in-out .2s;
+}
+
+#workshop .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#workshop .schedule-item:hover {
+  background-color: #fff;
+}
+
+#workshop .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#workshop .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#workshop .schedule-item .speaker img {
+  height: 100%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+
+#workshop .schedule-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#workshop .schedule-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#workshop .schedule-item p {
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
@@ -1055,7 +1162,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #volunteers .volunteers {
   position: relative;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #volunteers .volunteers .details {
@@ -1071,14 +1178,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #volunteers .volunteers .details h3 {
   color: #fff;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 
 #volunteers .volunteers .details p {
   color: #fff;
-  font-size: 15px;
+  font-size: 12px;
   margin-bottom: 10px;
   font-style: italic;
 }
